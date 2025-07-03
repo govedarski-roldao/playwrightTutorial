@@ -34,7 +34,6 @@ def run(playwright: Playwright) -> None:
     expect(page.locator("text=Celebrating Beauty and Style")).to_be_visible()
     page.pause()
 
-
     # ---------------------
     context.close()
     browser.close()
